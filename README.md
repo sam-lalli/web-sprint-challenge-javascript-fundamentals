@@ -26,14 +26,21 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
+    - .forEach does not create a new array, while .map does. .map does not manipulate the orginal array.
 
 2. Explain the difference between a callback and a higher order function.
+    - Higher Order Function takes callback functions as parameters. Callback functions are passed into higher order functions as arguments
 
 3. What is closure?
+    - gives us the ability to put functions together. You can access parent level functions through the child.
 
 4. Describe the four rules of the 'this' keyword.
-
+    - window binding - default, sets "this" to everything in the window, never should use this
+    - Implicit binding - when function is invoked, look left of the '.' and that is what "this" is referencing, most common
+    - Explicit binding - you explicitly tell "this" what you want it to reference, using .call, .apply, and .bind 
+    - New binding - 'this' refers to a specific instance in object, and returned by function
 5. Why do we need super() in an extended class?
+ - binds attributes from parent function to child function
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
